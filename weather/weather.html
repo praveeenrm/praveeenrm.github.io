@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="https://kit.fontawesome.com/339f44cc92.js" crossorigin="anonymous"></script>
+    <script defer src="weather.js"></script>
+    <link rel="icon" href="../images/logo.png" sizes="1x1" type="image/png" />
+    <title>Praveen | Weather</title>
+  </head>
+  <style>
+    .work {
+        padding-top: 2rem;
+    }
+    .first div p {
+        color: #333;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div class="logo"><h1></h1></div>
+        <ul class="nav-links">
+          <li><a class="underline-from-left" href="../index.html">About</a></li>
+          <li><a class="underline-from-left" href="#features">Features</a></li>
+          <li><a class="underline-from-left" href="#technology">Technology</a></li>
+          <li><a class="underline-from-left" href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+        <!-- WORK -->
+        <div class="work" id="work">
+            <h1>WEATHER</h1>
+            <div class="first">
+              <div>
+                <h2>About</h2>
+                <p>
+                  I build this application using the CoreLocation and Open weather API. This app is a clean and minimal weather application which shows you the weather forecast of your current location. And you can also get the other city weather just by entering the city name in the input box (TextField).
+                </p>
+                <p>The data's showed are Temparature in celcius, weather condition, sunrise and sunset time in IST(Indian Standard Time). And the bottom half of the screen will give you temperatures for every hour in one day.</p>
+                <a href="#features">Features</a>
+              </div>
+              <img
+                src="light.png"
+                alt=""
+              />
+            </div>
+        </div>
+        <br><br><br>
+        <!-- FEATURES -->
+        <div class="features" id="features">
+            <h1>Features</h1>
+            <div class="f1">
+                <div>
+                    <img src="light.png" width="200" alt="">
+                    <h2>Current And Hourly Data</h2>
+                    <p>The table view shows the hourly weather conditions and Sunrise and Sunset time is shown</p>
+                </div>
+                <div>
+                    <img src="dark.png" width="200" alt="">
+                    <h2>Dark Mode</h2>
+                    <p>This weather app has a dark mode function with responsive Colors</p>
+                </div>
+                <div>
+                    <img src="seblack.png" width="225" alt="">
+                    <h2>Other Devices</h2>
+                    <p>This weather works responsively from iPhone SE to iPhone 12</p>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br><br>
+
+        <!-- TECHNOLOGY -->
+        <div class="technology" id="technology">
+            <h1>Technology</h1>
+            <div class="tech">
+                <div>
+                    <img src="https://img.icons8.com/material-rounded/48/000000/navigation.png"/>
+                    <h2>Core Location</h2>
+                    <p>Core location is used to deliver accurate weather reports</p>
+                </div>
+                <div>
+                    <img src="https://img.icons8.com/android/48/000000/iphone.png"/>
+                    <h2>Dark Theme</h2>
+                    <p>This weather app supports Dark Mode and responsiveness</p>
+                </div>
+                <div>
+                    <img src="https://img.icons8.com/ios-filled/50/000000/api.png"/>
+                    <h2>OpenWeather API</h2>
+                    <p>The OpenWeatherAPI is used to fetch the weather data</p>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br><br>
+
+        <!-- FOOTER -->
+        <footer id="contact">
+            <div class="one">
+              <h1>Praveen</h1>
+              <p>Praveen &copy; 2020</p>
+            </div>
+      
+            <div class="twice">
+              <div class="two">
+                <h1>CONTACT</h1>
+                <li>
+                  <i class="fab fa-twitter"></i
+                  ><a href="https://twitter.com/Praveen_R_M" target="_blank"
+                    >Twitter</a
+                  >
+                </li>
+                <li>
+                  <i class="fab fa-linkedin"></i
+                  ><a
+                    href="https://linkedin.com/in/praveen-r-2009a0165"
+                    target="_blank"
+                    >Linkedin</a
+                  >
+                </li>
+                <li>
+                  <i class="fab fa-github"></i
+                  ><a href="https://github.com/praveeenrm" target="_blank">Github</a>
+                </li>
+                <li>
+                  <i class="fab fa-stack-overflow"></i
+                  ><a
+                    href="https://stackoverflow.com/users/12443547/praveen"
+                    target="_blank"
+                    >Stackoverflow</a
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i
+                  ><a href="mailto:praveen.engineer@outlook.com"
+                    ><span id="mail">praveen.engineer@outlook.com</span></a
+                  >
+                </li>
+              </div>
+      
+              <div class="three">
+                <h1>RECENT BLOG</h1>
+                <p>
+                  <a
+                    href="https://praveenr.hashnode.dev/array-data-structures-in-python-ckeljqjcu00ad99s14d561vvy"
+                    target="_blank"
+                    >Python Data Structures - Arrays</a
+                  >
+                </p>
+              </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        offset: 100,
+      });
+    </script>
+
+  </body>
+</html>
