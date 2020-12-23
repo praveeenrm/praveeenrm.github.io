@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="https://kit.fontawesome.com/339f44cc92.js" crossorigin="anonymous"></script>
+    <script defer src="task.js"></script>
+    <link rel="icon" href="../images/logo.png" sizes="1x1" type="image/png" />
+    <title>Praveen | Reminder</title>
+  </head>
+  <style>
+    .work {
+        padding-top: 2rem;
+    }
+    .first div p {
+        color: #333;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div class="logo"><h1></h1></div>
+        <ul class="nav-links">
+          <li><a class="underline-from-left" href="../index.html">About</a></li>
+          <li><a class="underline-from-left" href="#features">Features</a></li>
+          <li><a class="underline-from-left" href="#technology">Technology</a></li>
+          <li><a class="underline-from-left" href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+        <!-- WORK -->
+        <div class="work" id="work">
+            <h1>REMINDER</h1>
+            <div class="first">
+              <div>
+                <h2>About</h2>
+                <p>
+                  This is a simple iOS Reminder App clone. It’s a simple and minimal to do list app with usability and minimal design in mind. The User can add multiple task, each with a reminder. This app also sends the user notification of the task with the help of UserNotifications.
+                </p>
+                <p>The users data are stored using Core Data Framewrok which apple provides. The data is stored persistenly until the user deletes the task by swiping left as usual.</p>
+                <a href="#features">Features</a>
+              </div>
+              <img
+                src="1.png"
+                alt=""
+              />
+            </div>
+        </div>
+        <br><br><br>
+        <!-- FEATURES -->
+        <div class="features" id="features">
+            <h1>Features</h1>
+            <div class="f1">
+                <div>
+                    <img src="1.png" width="200" alt="">
+                    <h2>Add multiple Tasks</h2>
+                    <p>The table view shows the hourly weather conditions and Sunrise and Sunset time is shown</p>
+                </div>
+                <div>
+                    <img src="2.png" width="200" alt="">
+                    <h2>Simple UI</h2>
+                    <p>The users can add time using date time picker</p>
+                </div>
+                <div>
+                    <img src="3.png" width="225" alt="">
+                    <h2>Reminder Notifications</h2>
+                    <p>This app sends notifications to the user</p>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br><br>
+
+        <!-- TECHNOLOGY -->
+        <div class="technology" id="technology">
+            <h1>Technology</h1>
+            <div class="tech">
+                <div>
+                    <img src="https://img.icons8.com/material-rounded/48/000000/navigation.png"/>
+                    <h2>Core Data</h2>
+                    <p>Core Data is used to store users data persistenly</p>
+                </div>
+                <div>
+                    <img src="https://img.icons8.com/android/48/000000/iphone.png"/>
+                    <h2>UserNotifications</h2>
+                    <p>The User receives notifications</p>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br><br>
+
+        <!-- FOOTER -->
+        <footer id="contact">
+            <div class="one">
+              <h1>Praveen</h1>
+              <p>Praveen &copy; 2020</p>
+            </div>
+      
+            <div class="twice">
+              <div class="two">
+                <h1>CONTACT</h1>
+                <li>
+                  <i class="fab fa-twitter"></i
+                  ><a href="https://twitter.com/Praveen_R_M" target="_blank"
+                    >Twitter</a
+                  >
+                </li>
+                <li>
+                  <i class="fab fa-linkedin"></i
+                  ><a
+                    href="https://linkedin.com/in/praveen-r-2009a0165"
+                    target="_blank"
+                    >Linkedin</a
+                  >
+                </li>
+                <li>
+                  <i class="fab fa-github"></i
+                  ><a href="https://github.com/praveeenrm" target="_blank">Github</a>
+                </li>
+                <li>
+                  <i class="fab fa-stack-overflow"></i
+                  ><a
+                    href="https://stackoverflow.com/users/12443547/praveen"
+                    target="_blank"
+                    >Stackoverflow</a
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i
+                  ><a href="mailto:praveen.engineer@outlook.com"
+                    ><span id="mail">praveen.engineer@outlook.com</span></a
+                  >
+                </li>
+              </div>
+      
+              <div class="three">
+                <h1>RECENT BLOG</h1>
+                <p>
+                  <a
+                    href="https://praveenr.hashnode.dev/array-data-structures-in-python-ckeljqjcu00ad99s14d561vvy"
+                    target="_blank"
+                    >Python Data Structures - Arrays</a
+                  >
+                </p>
+              </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        offset: 100,
+      });
+    </script>
+
+  </body>
+</html>
